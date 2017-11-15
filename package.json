@@ -1,0 +1,20 @@
+{
+  "name": "micro-slack-bot-api",
+  "version": "1.0.0",
+  "description": "First pass on a simple slack app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "WeLikeToMakeThings & Pdub Labs",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.0.1",
+    "slackbots": "^1.1.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
+  }
+}
